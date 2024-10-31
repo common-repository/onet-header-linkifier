@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ONet Header Linkifier\n"
+"POT-Creation-Date: 2013-11-20 09:31+0100\n"
+"PO-Revision-Date: 2013-11-20 09:32+0100\n"
+"Last-Translator: OroszNyet <orosznyet@gmail.com>\n"
+"Language-Team: József Koller <orosznyet@gmail.com>\n"
+"Language: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: c:\\XAMPP\\htdocs\\ONETdev\\wp-content\\plugins\\onet-"
+"header-linkifier\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: onet-header-linkifier.php:48
+msgid "Plugin installation failed."
+msgstr "A bővítmény telekítése sikertelen volt."
+
+#: onet-header-linkifier.php:49
+#, php-format
+msgid ""
+"Sorry, ONet Header Linkifier requires at least PHP 5.0 but your version is "
+"PHP %s."
+msgstr ""
+"A ONet Header Linkifier használatához elengedhetetlen a PHP 5.0 verziószáma, "
+"míg az öné PHP %s."
+
+#: onet-header-linkifier.php:136
+msgid "Settings"
+msgstr "Beállítások"
+
+#: onet-header-linkifier.php:180
+msgid "Parser"
+msgstr "Feldolgozás"
+
+#: onet-header-linkifier.php:182
+msgid "Enable parse"
+msgstr "Feldolgozás engedélyezése"
+
+#: onet-header-linkifier.php:191
+msgid "Linkify style"
+msgstr "Linkesítés stílusa"
+
+#: onet-header-linkifier.php:194
+msgid "GitHub like"
+msgstr "GitHub-szerű"
+
+#: onet-header-linkifier.php:195
+msgid "Convert headers into links"
+msgstr "Címsorok linkké alakítása"
+
+#: onet-header-linkifier.php:196
+msgid ""
+"Please note that in order to avoid conflicts the convert method will "
+"overwrite the links in your headers. (In Git mode header's content will be "
+"untouched.)"
+msgstr ""
+"A konfliktusok elkerülése érdekében a linkké konvertálás során az eredeti "
+"linkek el lesznek távolítva. (A Git üzemmós esetén a fejlécek formázása "
+"érintetlen marad.)"
+
+#: onet-header-linkifier.php:204
+msgid "Git style settings"
+msgstr "Git stílus beállítások"
+
+#: onet-header-linkifier.php:206
+msgid "Load predefined style"
+msgstr "Előkészített stílus betöltése"
+
+#: onet-header-linkifier.php:207
+msgid "Turn this option off if you want to use custom link styles."
+msgstr "Kapcsold ki, ha saját link formázást szeretnél használni."
+
+#: onet-header-linkifier.php:215
+msgid "Smooth scroll"
+msgstr "Lágy görgetés"
+
+#: onet-header-linkifier.php:217
+msgid "Use smooth scroll for internal links"
+msgstr "Lágy görgetés használata belső linkekre."
+
+#: onet-header-linkifier.php:218
+msgid ""
+"Smooth scroll will be applied for every link on every page, if the link "
+"referring to a particular point of the actual document. (External link' "
+"behaviour will remain the same.)"
+msgstr ""
+"A lágy görgetés minden oldalon, minden linkre vonatkozik, amennyiben a link "
+"az aktuális oldal egy bizonyos részére mutat, a külső linkek vicelkedése "
+"változatlan marad."
+
+#: onet-header-linkifier.php:226
+msgid "Cache"
+msgstr "Gyorsítótár"
+
+#: onet-header-linkifier.php:228
+msgid "Use cache"
+msgstr "Gyorsítótár használata"
+
+#: onet-header-linkifier.php:229
+msgid "For longer articles it might be better to turn chace on."
+msgstr ""
+"Hosszú cikkek esetén hasznos lehet, rövidebbek esetén nem túl lényeges."
+
+#: onet-header-linkifier.php:237
+msgid "Tags to parse"
+msgstr "Feldolgozandó taglista"
+
+#: onet-header-linkifier.php:244
+msgid "H"
+msgstr "H"
+
+#: onet-header-linkifier.php:253
+msgid "Add support for"
+msgstr "Támogatás"
+
+#: onet-header-linkifier.php:276
+msgid "ONet Header Linkifier settings"
+msgstr "ONet Header linkifier beállítások"
+
+#: onet-header-linkifier.php:351
+msgid "ONet Header Linkifier: Loaded from inner cache"
+msgstr "ONet Header Linkifier: Gyorsítótárból betöltve"
+
+#: onet-header-linkifier.php:367
+msgid "ONet Header Linkifier: Recently parsed"
+msgstr "ONet Header Linkifier: Frissen feldolgozva"
+
+#~ msgid ""
+#~ "This plugin shipped with no predefined styles so you should update your "
+#~ "design on your own. Also please note that the convert method will "
+#~ "overwrite the links in your headers. But hey, that's why this plugin is "
+#~ "for advanced users."
+#~ msgstr ""
+#~ "Ez a bővítmény nem tartalmaz előre meghatározott stíluslapot, így saját "
+#~ "magadnak kell frissítened a designod. Továbbá fontos figyelembe venni, "
+#~ "hogy az linké alakítás választása esetén elvesznek a már meglévő linkek a "
+#~ "címsorokból. De fel a fejjel, ezért készült ez a bővítmény haladó "
+#~ "felhasználóknak."
+
+#~ msgid ""
+#~ "Semicolon or comma separated tag names (eg: <u>h1;h2;h3</u>). Using only "
+#~ "H1-H6 is recommended for hierarchical TOC. You can't use advanced "
+#~ "selectors yet (eg: h1.aclass,h2.bclass,h3#aID)."
+#~ msgstr ""
+#~ "Pontosvesszővel vagy vesszővel elválasztott tag nevek (pl: <u>h1;h2;h3</"
+#~ "u>). Ha szeretnél hierarchikus tartalomjegyzéket használni, javaslom csak "
+#~ "H1-H6 tagokat használj. Egyenlőre a haladó kijelölés nem lehetséges (pl: "
+#~ "h1.aclass,h2.bclass,h3#aID)."
